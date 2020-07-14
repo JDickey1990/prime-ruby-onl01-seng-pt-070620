@@ -2,12 +2,12 @@
 def prime?(number)
  (2..(number - 1)).each do |n|
   if number % n ==0 
-     return false
+      false
   elsif 
     number < 0
-    return !true
+     !true
   else 
-    return true
+     true
   end
   end
 end
