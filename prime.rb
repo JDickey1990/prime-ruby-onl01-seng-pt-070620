@@ -1,9 +1,8 @@
 
 def prime?(number)
-  number < 0
+ if number < 0
   return false
- if number > 0
- (2..(number - 1)).each do |n|
+ elsif (2..(number - 1)).each do |n|
   number % n ==0 
    return false
   else
