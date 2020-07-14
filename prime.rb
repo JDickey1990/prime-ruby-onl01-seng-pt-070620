@@ -7,3 +7,4 @@ def prime?(number)
   end
   true
 end
+prime?([2,3,11])
