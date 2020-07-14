@@ -6,5 +6,6 @@ def prime?(number)
     elsif number % n <= 0
     false
   end
+  end
    true 
 end
