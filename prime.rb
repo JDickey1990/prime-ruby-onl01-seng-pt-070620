@@ -1,10 +1,10 @@
 
 def prime?(number)
- if number < 0
-  false
+ if number <=1
+  return false
  else (2..(number - 1)).each do |n|
   number % n ==0 
-   false
+  return false
   end
      true
   end
