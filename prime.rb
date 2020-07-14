@@ -5,5 +5,4 @@ def prime?(number)
    false
    end
   true
-  end
 end
