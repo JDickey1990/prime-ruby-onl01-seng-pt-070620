@@ -7,5 +7,6 @@ def prime?(number)
     n += 1
   end
   true
+  end
 end
 prime?([2,3,11,105557])
