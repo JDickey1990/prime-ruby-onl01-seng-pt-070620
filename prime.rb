@@ -6,7 +6,7 @@ def prime?(number)
  (2..(number - 1)).each do |n|
   number % n ==0 
     false
-  else 
+  end
      true
   end
   end
